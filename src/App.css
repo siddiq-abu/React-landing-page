@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.container{
+width: 100%;
+height: 70px;
+}
+
+.row {
+display: flex;
+justify-content: space-around;
+max-width: 900px;
+margin: 0 auto;
+
+}
+
+
+
+ .logo img{
+width: 160px;
+
+}
+
+
+
+.book{
+border: 3px solid purple;
+background-color: white;
+border-radius: 5px;
+padding: 5px 15px;
+font-weight: 600;
+color: purple;
+cursor: pointer;
+}
+
+.cart{
+    width: 30px;
+    height: 40px;
+    color: purple;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+}
+
+ul li {
+   text-align: center; 
+   list-style: none;
+   padding: 5px;
+   color: purple;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+
+/* ////// Hero-Area ///// */
+
+.main-hero{
+display: flex;
+justify-content: space-around;
+}
+
+.hero-text{
+    padding: 35px;
+    text-align: center;
+    margin-top: 6rem;
+
+}
+
+h1{
+    font-size: 3rem;
+    color: purple;
+}
+
+span{
+color: purple;
+}
+
+.btn{
+border: 3px solid purple;
+background-color: white;
+border-radius: 5px;
+padding: 8px 15px;
+font-weight: 600;
+color: purple;
+cursor: pointer;
+}
+
+/* ///// categories-area ///// */
+
+.cards{
+display: flex;
+/* max-width: 700px; */
+/* margin: 0 auto; */
+gap: 2rem;
+}
+
+.card{
+    border: 1px solid purple;
+    width: 20%;
+    height: 200px;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 4rem ;
+}
+
+.click h2 a{
+position: absolute;
+
+top: 50px;
+/* left: 6rem; */
+width: 100%;
+height: 40px;
+background-color: white;
+text-align: center;
+align-items: center;
+    margin-top: 2rem;
+}
+
+
+
+
+
+.ctg{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.ftd{
+    text-align: center;
+    font-style: italic;
+   
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+/* ///// brd ///// */
+
+.brd{
+    text-align: center;
+    font-style: italic; 
+    padding: 1.5rem 0; 
+}
+
+.brands{
+    display: flex;
+    gap: .2rem;
+}
+
+.brand{
+    /* border: 1px solid purple; */
+    width: 20%;
+    height: 150px;
+    margin-left: 2rem;
+    border-radius: 1rem; 
+    margin-right: 2rem;
+}
+
+   /* ///// testimony /////  */
+
+   .tsm{
+    text-align: center;
+    font-style: italic;
+    padding: 1rem 0;
+   }
+
+   .test-img{
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: 10%;
+   }
+
+   .test-cards{
+    display: flex;
+    gap: 2rem;
+   }
+
+   .test-card{
+    /* border: 1px solid purple; */
+    width: 20%;
+    height: 400px;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    /* position: relative; */
+   }
+
+   .center{
+    text-align: center;
+   }
+
+   .footer{
+    width: 100%;
+    height: 420px;
+    background-color: plum;
+    margin-top: 3rem;
+    padding: 1rem 0;
+   }
+
+   .ft-text{
+    display: flex;
+    gap: 2rem;
+
+   }
+
+   .ft{
+    /* border: 1px solid purple; */
+    width: 20%;
+    height: 100px;
+    margin-left: 2rem;
+    border-radius: 1rem;
+   }
+
+   .para a{
+    color:black;
+   }
+
+   .para{
+    /* color: white; */
+   }
+
+.loc{
+    border: 3px solid purple;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 600;
+    color: purple;
+    cursor: pointer; 
+}
+
+.sum{
+    color: purple;
+    cursor: pointer; 
+    font-weight: 600;
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+input{
+    border-radius: 5px;
+    border: 3px solid purple;
+    padding: 8px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+.icon{
+    color: white;
+    font-size: 30px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.it{
+    font-style: italic;
+}
+
+.copy{
+    text-align: center;
+    width: 100%;
+    height: 3px;
+    
+
+}
+ 
